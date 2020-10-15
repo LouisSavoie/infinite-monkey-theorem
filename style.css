@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'OrkneyRegular';
 }
 
 #quote {
@@ -17,6 +18,11 @@ body {
 
 a {
     float: right;
+    color: rgb(0, 0, 195);
+}
+
+a:visited {
+    color: rgb(0, 0, 195);
 }
 
 #displayHeader {
@@ -46,6 +52,7 @@ form {
     width: 90vw;
     padding: 1rem;
     overflow: auto;
+    font-family: 'NaziTypewriterRegular';
 }
 
 footer p {

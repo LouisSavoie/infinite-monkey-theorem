@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'OrkneyRegular';
+}
+
+#quote {
+    width: 80vw;
+    margin: 1rem 0 2rem 0;
+}
+
+#shortQuote {
+    display: none;
+}
+
+a {
+    float: right;
+    color: rgb(0, 0, 195);
+}
+
+a:visited {
+    color: rgb(0, 0, 195);
+}
+
+#displayHeader {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+#displayHeading {
+    margin: 0;
+}
+
+form {
+    margin: 0;
+}
+
+#lengthInput {
+    width: 64px;
+}
+
+#textDisplay {
+    margin: 0 0 1rem 0;
+    border: 3px solid black;
+    border-radius: 12px;
+    width: 90vw;
+    padding: 1rem;
+    overflow: auto;
+    font-family: 'NaziTypewriterRegular';
+}
+
+footer p {
+    margin: .5rem 0 .5rem 0;
+}
+
+#textDisplay::-webkit-scrollbar {
+    width: 16px;
+    background-color: none;
+}
+
+#textDisplay::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 0px 8px 8px 0px;
+    background-color: #777;
+}
+
+#textDisplay::-webkit-scrollbar-thumb {
+    border-radius: 0px 8px 8px 0px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #DDD;
+}
+
+@media screen and (max-width: 520px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #quote {
+        width: 80vw;
+        margin: 1rem 0 0 0;
+    }
+
+    #longQuote {
+        display: none;
+    }
+
+    #shortQuote {
+        display: unset;
+    }
+
+    #displayHeader {
+        flex-direction: column;
+    }
+
+    #displayHeading {
+        order: 2;
+        margin: 1rem 0 0 0;
+    }
+
+    form {
+        order: 1;
+    }
+
+    #textDisplay {
+        margin: 0;
+        width: 93vw;
+        padding: .5rem;
+        overflow: auto;
+    }
+}

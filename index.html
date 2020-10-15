@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- SEO -->
+        <title></title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <!-- OPEN GRAPH -->
+        <meta property="og:title" content="">
+        <meta property="og:url" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <!-- TWITTER CARD -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@">
+        <meta name="twitter:title" content="">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:url" content="">
+        <meta name="twitter:image" content="">
+        <meta name="twitter:image:alt" content="">
+        <!-- FAVICON -->
+        <!-- <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="favicon_io/site.webmanifest"> -->
+        <!-- FONT AWESOME CDN -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
+        <!-- FONT LIBRARY -->
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/orkney" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/nazi-typewriter" type="text/css"/>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Infinite Monkey Theorem</h1>
+        <div id="quote">
+            <quote id="longQuote" cite="https://en.wikipedia.org/wiki/Infinite_monkey_theorem"><em>"The <strong>infinite monkey theorem</strong> states that a monkey hitting keys at random on a typewriter keyboard for an infinite amount of time will almost surely type any given text, such as the complete works of William Shakespeare."</em></quote>
+            <quote id="shortQuote" cite="https://en.wikipedia.org/wiki/Infinite_monkey_theorem"><em>"...a monkey [typing randomly] for an infinite amount of time will almost surely type any given text..."</em></quote>
+            <a href="https://en.wikipedia.org/wiki/Infinite_monkey_theorem">-wikipedia</a>
+        </div>
+        <div id="displayHeader">
+            <p id="displayHeading"><strong>Your masterpiece:</strong></p>
+            <form>
+                <label for="length">Length: </label>
+                <input type="number" id="lengthInput" name="length" min="1">
+                <input type="button" id="generateButton" value="Generate Text!">
+            </form>
+        </div>
+        <div id="textDisplay"></div>
+        <footer>
+            <p>Copyright© Louis Savoie 2020</p>
+        </footer>
+        <!-- Custom Javascript -->
+        <script src="app.js"></script>
+    </body>
+</html>

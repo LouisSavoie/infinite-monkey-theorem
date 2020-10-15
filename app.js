@@ -4,7 +4,7 @@ const lengthInput = document.querySelector('#lengthInput');
 const generateButton = document.querySelector('#generateButton');
 
 // CHARACTER SETS
-const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz\',.?!;:()-          ';
+const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz\',.?!;:()-                    ';
 
 // GENERATION FUNCTIONS
 function generate(length) {

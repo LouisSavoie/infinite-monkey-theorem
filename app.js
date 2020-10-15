@@ -1,5 +1,12 @@
-const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz\',.?!;:()-';
+// SELECT DOM ELEMENTS
+const textDisplay = document.querySelector('#textDisplay');
+const lengthInput = document.querySelector('#lengthInput');
+const generateButton = document.querySelector('#generateButton');
 
+// CHARACTER SETS
+const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz\',.?!;:()-          ';
+
+// GENERATION FUNCTIONS
 function generate(length) {
     let result = '';
     for(let i = 0; i < length; i++) {
@@ -8,4 +15,7 @@ function generate(length) {
     return result;
 }
 
-console.log(generate(100));
+// CLICK EVENTS
+generateButton.addEventListener("click", function() {
+    textDisplay.innerHTML = generate(lengthInput.value);
+});

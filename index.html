@@ -38,11 +38,11 @@
         <h1>Infinite Monkey Theorem</h1>
         <p>wikipedia:</p>
         <blockquote cite="https://en.wikipedia.org/wiki/Infinite_monkey_theorem"><em>"The <strong>infinite monkey theorem</strong> states that a monkey hitting keys at random on a typewriter keyboard for an infinite amount of time will almost surely type any given text, such as the complete works of William Shakespeare."</em></blockquote>
-        <div id="textDisplay"></div>
+        <p id="textDisplay">test</p>
         <form>
             <label for="length">Length: </label>
-            <input type="number" id="length" name="length">
-            <button id="generateButton">Generate Text!</button>
+            <input type="number" id="lengthInput" name="length" min="1">
+            <input type="button" id="generateButton" value="Generate Text!">
         </form>
         <!-- Custom Javascript -->
         <script src="app.js"></script>

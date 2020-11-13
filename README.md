@@ -1,3 +1,3 @@
 # Infinite Monkey Theorem
 
-Click clack the monkey tippity tap... Shakespeare?
+Clickity clack the monkey tippity tap... Shakespeare?

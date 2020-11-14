@@ -47,8 +47,11 @@
         <div id="displayHeader">
             <p id="displayHeading"><strong>Your masterpiece:</strong></p>
             <form>
-                <label for="length">Length: </label>
-                <input type="number" id="lengthInput" name="length" min="1" value="1000">
+                <label id="labelHiRes" for="length">Length: </label>
+                <div id="lengthDiv">
+                    <label id="labelLowRes" for="length">Length: </label>
+                    <input type="number" id="lengthInput" name="length" min="1" value="1000">
+                </div>
                 <input type="button" id="generateButton" value="Generate Text!">
                 <input type="button" id="generateEasyButton" value="Easy(er) Mode!">
             </form>
